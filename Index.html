@@ -1,0 +1,61 @@
+    <!doctype html>
+    <html>
+        <head>
+            <meta charset="UTF-8"/>
+            <title>SaftyIOT</title>
+        <!--  <link rel="icon" href="..\img\loader.png"> -->
+            <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+            <link rel="StyleSheet" href="css\index.css"/>  
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Vollkorn">
+            
+            <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+            <script>
+            // Initialize Firebase
+           
+            </script>
+            <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase-app.js"></script>
+            <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase-auth.js"></script>
+            <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase-database.js"></script>
+            <script src="js\firebaseConfig.js"></script>
+        </head>
+        <body>
+                <div class="container">
+                        <div class="col-xs-7 overview-header">
+    <h2>OVERVIEW / HOT ROLLING MILL</h2>
+                        </div>
+                        <div class="col-xs-1 time-header">
+                                <h2 id="time"></h2>
+                          
+                        </div>
+                        <div class="col-xs-4 check-in">
+                        <h2 id=check-out-count></h2>
+                        </div>
+                        
+                            <div class="map-image">
+                                <canvas id="myCanvas" >
+                                    
+                                </canvas>
+                                </div>
+
+                    
+        
+        <div class="container report-information">
+            <div class = "row">
+                <div class="col-xs-5 last-checked-in">
+                    <h3>LAST TIME CHECKED IN</h3>
+                </div>
+                <div class="col-xs-3 location">
+                    <h3>Location</h3>
+                </div>
+                <div class="col-xs-4 person">
+                    <h3>Person</h3>
+                </div>
+            </div>
+            <div id="info"></div>
+        </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script src="js\bootstrap.min.js"></script>
+        <script src="js\Index.js"></script> 
+    </body>
+        </html>

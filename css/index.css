@@ -1,0 +1,51 @@
+
+body{
+    background-color: #0E1F39;
+}
+
+#myCanvas{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+h2{
+   margin-bottom: 0px;
+    color: #FFFEFF;
+    font-weight: bold;
+}
+
+.check-in h2{
+    margin-left: 104px;
+}
+
+.time-header h2{
+    margin-left: 59px;
+}
+
+.overview-header h2{
+    margin-left: 99px;
+    margin-bottom: 27px;
+}
+.report-information {
+     background-color : #E9CF7A;
+     font-size: 20px;
+     width:80%
+ }
+
+ .last-checked-in h3{
+    font-weight: bold;
+ }
+
+ .location h3{
+    font-weight: bold;
+ }
+
+ .person h3{
+    font-weight: bold;
+ }
+ row{
+     padding-top:3px;
+     padding-bottom: 3px;
+ }

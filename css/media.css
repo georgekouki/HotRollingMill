@@ -1,0 +1,15 @@
+ .centered{
+    margin-top: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+}
+body{
+    background-color: #0E1F39;
+    color: #FFFEFF;
+}
+.image-view{
+    margin-bottom: 2%;
+}

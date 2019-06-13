@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>SaftyIOT</title>
+    <!--  <link rel="icon" href="..\img\loader.png"> -->
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <link rel="StyleSheet" href="css\report.css"/>  
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Vollkorn">
+        
+        <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+        <script>
+        // Initialize Firebase
+       
+        </script>
+        <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase-database.js"></script>
+        <script src="js\firebaseConfig.js"></script>
+    </head>
+    <body>
+        <h1> SUBMITTED REPORTS / IN PROGRESS</h1>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-3" id ="high-risk-square">
+                        <div class="centered">HIGH</div>
+                        <div id="high-risk-count" class="centered"></div>
+                    </div>
+                    <div class="col-xs-9" id="high-risk"></div>
+                </div>
+                <div class= "row" >
+                        <div class="col-xs-3" id = "medium-risk-square">
+                                <div class="centered">MEDIUM </div>
+                                <div id="medium-risk-count" class="centered"></div>
+                        </div>
+                        <div class="col-xs-9"  id="medium-risk"></div>
+                </div>
+                <div class="row">
+                        <div class="col-xs-3" id="low-risk-square">
+                                <div class="centered">LOW </div>
+                                <div id="low-risk-count" class="centered"></div>
+                        </div>
+                        <div class="col-xs-9"  id="low-risk"></div>
+
+                </div >
+            </div>
+   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="js\bootstrap.min.js"></script>
+    <script src="js\report.js"></script> 
+</body>
+    </html>

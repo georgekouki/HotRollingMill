@@ -1,0 +1,45 @@
+body{
+    background-color: #0E1F39;
+    color: #FFFEFF;
+}
+h1{
+    font-weight: bold;
+    margin-left: 74px;
+}
+#high-risk-square,#medium-risk-square,#low-risk-square{
+    height: 180px;
+    width:180px;
+    color: black;
+    font-size: 37px;
+    font-weight: bold;
+}
+#high-risk-square{
+    background-color: #F06E6C
+}
+#medium-risk-square{
+    background-color: #E9CF7A
+}
+#low-risk-square{
+    background-color: #76B6D1
+}
+.centered{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+.reprot-line{
+   font-size: 25px;
+}
+.container{
+    margin-left:2%;
+    width:100%;
+}
+.row{
+    margin-top:40px;
+}
+.media-link{
+    color: #42bcf4;
+}
